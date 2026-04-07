@@ -1,6 +1,6 @@
+package carpetaGit;
 /*Cargue un arreglo con n elementos y desplace sus elementos un lugar hacia su derecha,
 teniendo en cuenta que el último componente se ha de desplazar al primer lugar. */
-package Asignacion5_2_3;
 import java.io.*;
 class Proceso {
     private int v[];
@@ -70,5 +70,6 @@ class Main {
         for(int i=0; i<cantElem;i++){
             System.out.print('\t'+obj.getV(i));
         }
+        System.out.print("Modificación");
     }
 }
