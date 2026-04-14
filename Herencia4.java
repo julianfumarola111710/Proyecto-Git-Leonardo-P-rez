@@ -1,7 +1,7 @@
 /*Los miembros con modificador de acceso private en la superclase 
   no son visibles(se ocultan) en la subclase al definir la herencia con la palabra extends */
   
-/* Existe un mecanismo llamado mÈtodo intermediario para poder utilizar los datos no visibles 
+/* Existe un mecanismo llamado mÔøΩtodo intermediario para poder utilizar los datos no visibles 
    de la superclase en la suclase */
   
 
@@ -21,12 +21,12 @@ class Poligono {
   	return ancho;
   }   
 }   
-   	  
+/* ESTE ES UN COMENTARIO AGREGADO POR JULI√ÅN FUMAROLA PARA QUE PRACTIQUEMOS*/	  
 class Rectangulo  extends Poligono {    
  
   	  public int area() { 
-  	  return get_ancho() * get_altura() ; /*los mÈtodos get_ancho() y get_altura()
-  	                                        actuan como mÈtodos intermediarios retornado los valores 
+  	  return get_ancho() * get_altura() ; /*los mÔøΩtodos get_ancho() y get_altura()
+  	                                        actuan como mÔøΩtodos intermediarios retornado los valores 
   	                                        ancho y altura para poder calcular el area del rectangulo*/
        }   
 }  	  
